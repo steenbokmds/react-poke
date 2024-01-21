@@ -7,6 +7,7 @@ Some stuff worth mentioning:
 4. The files were manually uploaded to git for unrelated reasons
 5. the code probably contains multiple flaws
 6. The design looks terrible but that is unrelated to react. I spend very little time on this. Use your imaginations :)
+7. some data should have been from the API but I did not spend a lot of time checking the docs. It might or might not be possible via that API.
 
 ### `npm start`
 
