@@ -1,0 +1,128 @@
+/*root */
+#root{
+  background: #3A1C71;  
+  background: -webkit-linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71); 
+  background: linear-gradient(to bottom, #FFAF7B, #D76D77, #3A1C71);  
+  padding: 25px;
+  min-height:calc(100vh - 50px);
+}
+
+/*main page*/
+.pokemonList { 
+  display:flex;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.2);
+  border-radius: 25px;
+}
+.pokemonList div{
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  padding-bottom:10px;
+  padding-top:5px;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.2);
+  border-radius: 23px;
+  cursor:pointer;
+}
+.pokemonList div a{
+  all:unset;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*detail page*/
+.wrapper { 
+  background: rgba(255,255,255,0.2);
+  border-radius: 25px;
+  padding:20px;
+  max-width:450px;
+  margin:auto;
+}
+.wrapper h1, .wrapper h2{
+  text-align: center;
+}
+.wrapper .home{
+  margin:15px 0px;
+  color: white;
+  text-decoration: underline;
+  text-align: right;
+  cursor: pointer;
+}
+.wrapper .home a{
+  all:unset;
+}
+.generic, .stats, .gallery{
+  padding:10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 23px;
+}
+.generic{
+  padding:0px 0px 10px 0px !important;
+}
+.stats, .generic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImg{
+  width: 150px;
+}
+.types div{
+  display:flex;
+  align-items: center;
+  
+}
+.types .type{
+  height: 1rem;
+  padding:5px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.showcase{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.showcase img{
+  width:200px;
+  max-height:200px;
+}
+.thumbnail{
+  width:30px;
+}
+.selectImage{
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy*/
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){
+  background-color: rgba(242,242,242, 0.2);
+}
+
+table tr:hover {
+  background-color: rgba(242,242,242, 0.5);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+}
